@@ -1,0 +1,16 @@
+# Ignore the large image dataset
+cerebrovascular_images/
+
+# Ignore intermediate data files
+*.csv
+
+# Ignore the Java driver file
+*.jar
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+.env
+
+# Ignore IDE folders
+.idea/
