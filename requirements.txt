@@ -1,0 +1,17 @@
+# For downloading the dataset from Kaggle API
+kaggle
+
+# For data ingestion script (reading CSV and connecting to PostgreSQL)
+pandas==2.3.2
+SQLAlchemy
+psycopg2-binary
+
+# For data processing with Apache Spark
+pyspark==4.0.0
+py4j==0.10.9.9
+
+# For pipeline orchestration
+prefect
+
+# Specific numpy version to resolve dependency conflicts
+numpy==2.2.4
